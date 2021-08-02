@@ -2,7 +2,7 @@
 <odoo>
     <data>
 <!--        This removes the footer "Sent by [Company name] from the email footer-->
-        <template id="message_notification_email" inherit_id="mail.message_notification_email">
+        <template id="message_notification_email_fortizar" inherit_id="mail.message_notification_email">
             <xpath expr="//div/p[last()]" position="replace"></xpath>
         </template>
     </data>
